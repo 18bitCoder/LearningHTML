@@ -221,6 +221,17 @@ body {
   font-family: 'Source Sans 3', sans-serif;
   font-size: 1.15rem;
   color: #9F9F9F;
+  cursor: pointer;
+}
+
+.pet-filter button:hover {
+  color: #7d7d7d;
+}
+
+.pet-filter .active,
+.pet-filter .active:hover {
+  color: #4754FF;
+  text-decoration: underline;
 }
 
 .site-footer p {
@@ -241,7 +252,7 @@ body {
 .pet-card {
   display: grid;
   overflow: hidden;
-  grid-template-columns: 120px1fr;
+  grid-template-columns: 120px 1fr;
   border-radius: 20px;
   border: 1px solid #F3F3F3;
   background: #FFF;
